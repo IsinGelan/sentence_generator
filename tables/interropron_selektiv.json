@@ -1,0 +1,33 @@
+{
+    "purpose": "Für Interrogativpronomen nach Geschlecht (hier Selektive Interrogativpronomen genannt)",
+    "order": [
+        "genus",
+        "kasus"
+    ],
+    "content": {
+        "m": {
+            "nom": "welcher",
+            "gen": "welchen",
+            "dat": "welchem",
+            "akk": "welchen"
+        },
+        "f": {
+            "nom": "welche",
+            "gen": "welcher",
+            "dat": "welcher",
+            "akk": "welche"
+        },
+        "n": {
+            "nom": "welches",
+            "gen": "welches",
+            "dat": "welchem",
+            "akk": "welches"
+        },
+        "pl": {
+            "nom": "welche",
+            "gen": "welcher",
+            "dat": "welchen",
+            "akk": "welche"
+        }
+    }
+}

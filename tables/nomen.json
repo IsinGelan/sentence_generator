@@ -1,0 +1,209 @@
+{
+    "order": [
+        "genus",
+        "...",
+        "kasus"
+    ],
+    "content": {
+        "m": [
+            {
+                "nom": "Messias",
+                "gen": "Messias'",
+                "dat": "Messias",
+                "akk": "Messias"
+            },
+            {
+                "nom": "Mann",
+                "gen": "Mannes",
+                "dat": "Mann",
+                "akk": "Mann"
+            },
+            {
+                "nom": "Mensch",
+                "gen": "Menschen",
+                "dat": "Menschen",
+                "akk": "Menschen"
+            },
+            {
+                "nom": "Apfel",
+                "gen": "Apfels",
+                "dat": "Apfel",
+                "akk": "Apfel"
+            },
+            {
+                "nom": "Arzt",
+                "gen": "Arztes",
+                "dat": "Arzt",
+                "akk": "Arzt"
+            },
+            {
+                "nom": "Gott",
+                "gen": "Gottes",
+                "dat": "Gott",
+                "akk": "Gott"
+            },
+            {
+                "nom": "Weg",
+                "gen": "Weges",
+                "dat": "Weg",
+                "akk": "Weg"
+            },
+            {
+                "nom": "Wasserkocher",
+                "gen": "Wasserkochers",
+                "dat": "Wasserkocher",
+                "akk": "Wasserkocher"
+            }
+        ],
+        "f": [
+            {
+                "nom": "Frau",
+                "gen": "Frau",
+                "dat": "Frau",
+                "akk": "Frau"
+            },
+            {
+                "nom": "Ente",
+                "gen": "Ente",
+                "dat": "Ente",
+                "akk": "Ente"
+            },
+            {
+                "nom": "Schranke",
+                "gen": "Schranke",
+                "dat": "Schranke",
+                "akk": "Schranke"
+            },
+            {
+                "nom": "Mutter",
+                "gen": "Mutter",
+                "dat": "Mutter",
+                "akk": "Mutter"
+            },
+            {
+                "nom": "Gewalt",
+                "gen": "Gewalt",
+                "dat": "Gewalt",
+                "akk": "Gewalt"
+            },
+            {
+                "nom": "Schöpfung",
+                "gen": "Schöpfung",
+                "dat": "Schöpfung",
+                "akk": "Schöpfung"
+            },
+            {
+                "nom": "Schnecke",
+                "gen": "Schnecke",
+                "dat": "Schnecke",
+                "akk": "Schnecke"
+            },
+            {
+                "nom": "Biologin",
+                "gen": "Biologin",
+                "dat": "Biologin",
+                "akk": "Biologin"
+            }
+        ],
+        "n": [
+            {
+                "nom": "Mädchen",
+                "gen": "Mädchens",
+                "dat": "Mädchen",
+                "akk": "Mädchen"
+            },
+            {
+                "nom": "Kind",
+                "gen": "Kindes",
+                "dat": "Kind",
+                "akk": "Kind"
+            },
+            {
+                "nom": "Känguru",
+                "gen": "Kängurus",
+                "dat": "Känguru",
+                "akk": "Känguru"
+            },
+            {
+                "nom": "Wasser",
+                "gen": "Wassers",
+                "dat": "Wasser",
+                "akk": "Wasser"
+            },
+            {
+                "nom": "Ärgernis",
+                "gen": "Ärgernisses",
+                "dat": "Ärgernis",
+                "akk": "Ärgernis"
+            },
+            {
+                "nom": "Leben",
+                "gen": "Lebens",
+                "dat": "Leben",
+                "akk": "Leben"
+            },
+            {
+                "nom": "Restaurant",
+                "gen": "Restaurants",
+                "dat": "Restaurant",
+                "akk": "Restaurant"
+            },
+            {
+                "nom": "Gasthaus",
+                "gen": "Gasthauses",
+                "dat": "Gasthaus",
+                "akk": "Gasthaus"
+            }
+        ],
+        "pl": [
+            {
+                "nom": "Leute",
+                "gen": "Leute",
+                "dat": "Leuten",
+                "akk": "Leute"
+            },
+            {
+                "nom": "Wesen",
+                "gen": "Wesen",
+                "dat": "Wesen",
+                "akk": "Wesen"
+            },
+            {
+                "nom": "Spaghetti",
+                "gen": "Spaghetti",
+                "dat": "Spaghetti",
+                "akk": "Spaghetti"
+            },
+            {
+                "nom": "Höllenhunde",
+                "gen": "Höllenhunde",
+                "dat": "Höllenhunden",
+                "akk": "Höllenhunde"
+            },
+            {
+                "nom": "Geschwister",
+                "gen": "Geschwister",
+                "dat": "Geschwistern",
+                "akk": "Geschwister"
+            },
+            {
+                "nom": "Freunde",
+                "gen": "Freunde",
+                "dat": "Freunden",
+                "akk": "Freunde"
+            },
+            {
+                "nom": "Tanten",
+                "gen": "Tanten",
+                "dat": "Tanten",
+                "akk": "Tanten"
+            },
+            {
+                "nom": "Erzfeinde",
+                "gen": "Erzfeinde",
+                "dat": "Erzfeinden",
+                "akk": "Erzfeinde"
+            }
+        ]
+    }
+}

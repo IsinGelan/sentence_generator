@@ -1,0 +1,78 @@
+
+{
+    "order": [
+        "genus",
+        "kasus",
+        "..."
+    ],
+    "content": {
+        "m": {
+            "nom": [
+                "der",
+                "ein"
+            ],
+            "gen": [
+                "des",
+                "eines"
+            ],
+            "dat": [
+                "dem",
+                "einem"
+            ],
+            "akk": [
+                "den",
+                "einen"
+            ]
+        },
+        "f": {
+            "nom": [
+                "die",
+                "eine"
+            ],
+            "gen": [
+                "der",
+                "einer"
+            ],
+            "dat": [
+                "der",
+                "einer"
+            ],
+            "akk": [
+                "die",
+                "eine"
+            ]
+        },
+        "n": {
+            "nom": [
+                "das",
+                "ein"
+            ],
+            "gen": [
+                "des",
+                "eines"
+            ],
+            "dat": [
+                "dem",
+                "einem"
+            ],
+            "akk": [
+                "das",
+                "ein"
+            ]
+        },
+        "pl": {
+            "nom": [
+                "die"
+            ],
+            "gen": [
+                "der"
+            ],
+            "dat": [
+                "den"
+            ],
+            "akk": [
+                "die"
+            ]
+        }
+    }
+}

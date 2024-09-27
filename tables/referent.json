@@ -1,0 +1,211 @@
+{
+    "purpose": "Zusammenschluss aus Artikeln, Demonstrativpronomen, Indefinitpronomen, da diese die gleiche Rolle einnehmen, nämlich die Referenz auf das Folgewort zu ändern, deswegen hier so genannt. 'der' und 'ein' sind Artikel; 'dieser' und 'jener' sind Demonstrativpronomen; 'kein', 'jeder', 'irgendein' und 'manche' sind Indefinitpronomen.",
+    "order": [
+        "determ",
+        "genus",
+        "kasus",
+        "..."
+    ],
+    "content": {
+        "def": {
+            "m": {
+                "nom": [
+                    "der",
+                    "dieser",
+                    "jener",
+                    "jeder"
+                ],
+                "gen": [
+                    "des",
+                    "dieses",
+                    "jenes",
+                    "jedes"
+                ],
+                "dat": [
+                    "dem",
+                    "diesem",
+                    "jenem",
+                    "jedem"
+                ],
+                "akk": [
+                    "den",
+                    "diesen",
+                    "jenen",
+                    "jeden"
+                ]
+            },
+            "f": {
+                "nom": [
+                    "eine",
+                    "diese",
+                    "jene",
+                    "jede"
+                ],
+                "gen": [
+                    "der",
+                    "dieser",
+                    "jener",
+                    "jeder"
+                ],
+                "dat": [
+                    "der",
+                    "dieser",
+                    "jener",
+                    "jeder"
+                ],
+                "akk": [
+                    "die",
+                    "diese",
+                    "jene",
+                    "jede"
+                ]
+            },
+            "n": {
+                "nom": [
+                    "das",
+                    "dieses",
+                    "jenes",
+                    "jedes"
+                ],
+                "gen": [
+                    "des",
+                    "dieses",
+                    "jenes",
+                    "jedes"
+                ],
+                "dat": [
+                    "dem",
+                    "diesem",
+                    "jenem",
+                    "jedem"
+                ],
+                "akk": [
+                    "das",
+                    "dieses",
+                    "jenes",
+                    "jedes"
+                ]
+            },
+            "pl": {
+                "nom": [
+                    "die",
+                    "diese",
+                    "jene",
+                    "alle"
+                ],
+                "gen": [
+                    "der",
+                    "dieser",
+                    "jener",
+                    "aller"
+                ],
+                "dat": [
+                    "den",
+                    "diesen",
+                    "jenen",
+                    "allen"
+                ],
+                "akk": [
+                    "die",
+                    "diese",
+                    "jene",
+                    "alle"
+                ]
+            }
+        },
+        "indef": {
+            "m": {
+                "nom": [
+                    "ein",
+                    "kein",
+                    "irgendein"
+                ],
+                "gen": [
+                    "eines",
+                    "keines",
+                    "irgendeines"
+                ],
+                "dat": [
+                    "einem",
+                    "keinem",
+                    "irgendeinem"
+                ],
+                "akk": [
+                    "einen",
+                    "keinen",
+                    "irgendeinen"
+                ]
+            },
+            "f": {
+                "nom": [
+                    "eine",
+                    "keine",
+                    "irgendeine"
+                ],
+                "gen": [
+                    "einer",
+                    "keiner",
+                    "irgendeiner"
+                ],
+                "dat": [
+                    "einer",
+                    "keiner",
+                    "irgendeiner"
+                ],
+                "akk": [
+                    "eine",
+                    "keine",
+                    "irgendeine"
+                ]
+            },
+            "n": {
+                "nom": [
+                    "ein",
+                    "kein",
+                    "irgendein"
+                ],
+                "gen": [
+                    "eines",
+                    "keines",
+                    "irgendeines"
+                ],
+                "dat": [
+                    "einem",
+                    "keinem",
+                    "irgendeinem"
+                ],
+                "akk": [
+                    "ein",
+                    "kein",
+                    "irgendein"
+                ]
+            },
+            "pl": {
+                "nom": [
+                    "keine",
+                    "irgenwelche",
+                    "manche",
+                    "einige"
+                ],
+                "gen": [
+                    "keiner",
+                    "irgenwelcher",
+                    "mancher",
+                    "einige"
+                ],
+                "dat": [
+                    "keinen",
+                    "irgenwelchen",
+                    "manchen",
+                    "einige"
+                ],
+                "akk": [
+                    "keine",
+                    "irgenwelche",
+                    "manche",
+                    "einige"
+                ]
+            }
+        }
+    }
+}

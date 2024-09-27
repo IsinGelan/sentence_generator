@@ -1,0 +1,48 @@
+{
+    "order": [
+        "person",
+        "kasus"
+    ],
+    "content": {
+        "1sg": {
+            "nom": "ich",
+            "dat": "mir",
+            "akk": "mich"
+        },
+        "2sg": {
+            "nom": "du",
+            "dat": "dir",
+            "akk": "dich"
+        },
+        "3sgm": {
+            "nom": "er",
+            "dat": "ihm",
+            "akk": "ihn"
+        },
+        "3sgf": {
+            "nom": "sie",
+            "dat": "ihr",
+            "akk": "sie"
+        },
+        "3sgn": {
+            "nom": "es",
+            "dat": "ihm",
+            "akk": "es"
+        },
+        "1pl": {
+            "nom": "wir",
+            "dat": "uns",
+            "akk": "uns"
+        },
+        "2pl": {
+            "nom": "ihr",
+            "dat": "euch",
+            "akk": "euch"
+        },
+        "3pl": {
+            "nom": "sie",
+            "dat": "ihnen",
+            "akk": "sie"
+        }
+    }
+}

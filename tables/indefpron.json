@@ -1,0 +1,102 @@
+{
+    "purpose": "Für Indefinitpronomen",
+    "order": [
+        "genus",
+        "kasus",
+        "..."
+    ],
+    "content": {
+        "m": {
+            "nom": [
+                "kein",
+                "jeder",
+                "irgendein"
+            ],
+            "gen": [
+                "keines",
+                "jedes",
+                "irgendeines"
+            ],
+            "dat": [
+                "keinem",
+                "jedem",
+                "irgendeinem"
+            ],
+            "akk": [
+                "keinen",
+                "jeden",
+                "irgendeinen"
+            ]
+        },
+        "f": {
+            "nom": [
+                "keine",
+                "jede",
+                "irgendeine"
+            ],
+            "gen": [
+                "keiner",
+                "jeder",
+                "irgendeiner"
+            ],
+            "dat": [
+                "keiner",
+                "jeder",
+                "irgendeiner"
+            ],
+            "akk": [
+                "keine",
+                "jede",
+                "irgendeine"
+            ]
+        },
+        "n": {
+            "nom": [
+                "kein",
+                "jedes",
+                "irgendein"
+            ],
+            "gen": [
+                "keines",
+                "jedes",
+                "irgendeines"
+            ],
+            "dat": [
+                "keinem",
+                "jedem",
+                "irgendeinem"
+            ],
+            "akk": [
+                "keines",
+                "jedes",
+                "irgendein"
+            ]
+        },
+        "pl": {
+            "nom": [
+                "keine",
+                "jede",
+                "irgenwelche",
+                "manche"
+            ],
+            "gen": [
+                "keiner",
+                "jeder",
+                "irgenwelcher",
+                "mancher"
+            ],
+            "dat": [
+                "keinen",
+                "jeden",
+                "irgenwelchen",
+                "manchen"
+            ],
+            "akk": [
+                "keine",
+                "jede",
+                "irgenwelche",
+                "manche"
+            ]
+        }
+    }
+}

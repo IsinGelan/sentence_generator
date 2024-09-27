@@ -1,0 +1,82 @@
+{
+    "purpose": "Für Demonstrativpronomen",
+    "order": [
+        "genus",
+        "kasus",
+        "..."
+    ],
+    "content": {
+        "m": {
+            "nom": [
+                "dieser",
+                "jener"
+            ],
+            "gen": [
+                "dieses",
+                "jenes"
+            ],
+            "dat": [
+                "diesem",
+                "jenem"
+            ],
+            "akk": [
+                "diesen",
+                "jenen"
+            ]
+        },
+        "f": {
+            "nom": [
+                "diese",
+                "jene"
+            ],
+            "gen": [
+                "dieser",
+                "jener"
+            ],
+            "dat": [
+                "dieser",
+                "jener"
+            ],
+            "akk": [
+                "diese",
+                "jene"
+            ]
+        },
+        "n": {
+            "nom": [
+                "dieses",
+                "jenes"
+            ],
+            "gen": [
+                "dieses",
+                "jenes"
+            ],
+            "dat": [
+                "diesem",
+                "jenem"
+            ],
+            "akk": [
+                "dieses",
+                "jenes"
+            ]
+        },
+        "pl": {
+            "nom": [
+                "diese",
+                "jene"
+            ],
+            "gen": [
+                "dieser",
+                "jener"
+            ],
+            "dat": [
+                "diesen",
+                "jenen"
+            ],
+            "akk": [
+                "diese",
+                "jene"
+            ]
+        }
+    }
+}

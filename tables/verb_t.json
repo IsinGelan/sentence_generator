@@ -1,0 +1,146 @@
+{
+    "purpose": "für transitive Verben, hier stehend für solche mit direktem Objekt",
+    "order": [
+        "kasus",
+        "...",
+        "person"
+    ],
+    "content": {
+        "nom": [
+            {
+                "1sg": "bin",
+                "2sg": "bist",
+                "3sg": "ist",
+                "1pl": "sind",
+                "2pl": "seid",
+                "3pl": "sind",
+                "isg": "sei",
+                "ipl": "seid"
+            }
+        ],
+        "dat": [
+            {
+                "1sg": "entspreche",
+                "2sg": "entsprichst",
+                "3sg": "entspricht",
+                "1pl": "entsprechen",
+                "2pl": "entsprecht",
+                "3pl": "entsprechen",
+                "isg": "entsprich",
+                "ipl": "enstsprecht"
+            },
+            {
+                "1sg": "huldige",
+                "2sg": "huldigst",
+                "3sg": "huldigt",
+                "1pl": "huldigen",
+                "2pl": "huldigt",
+                "3pl": "huldigen",
+                "isg": "huldige",
+                "ipl": "huldigt"
+            },
+            {
+                "1sg": "gehöre",
+                "2sg": "gehörst",
+                "3sg": "gehört",
+                "1pl": "gehören",
+                "2pl": "gehört",
+                "3pl": "gehören",
+                "isg": "gehöre",
+                "ipl": "gehört"
+            },
+            {
+                "1sg": "genüge",
+                "2sg": "genügst",
+                "3sg": "genügt",
+                "1pl": "genügen",
+                "2pl": "genügt",
+                "3pl": "genügen",
+                "isg": "genüge",
+                "ipl": "genügt"
+            },
+            {
+                "1sg": "gehorche",
+                "2sg": "gehorchst",
+                "3sg": "gehorcht",
+                "1pl": "gehorchen",
+                "2pl": "gehorcht",
+                "3pl": "gehorchen",
+                "isg": "gehorche",
+                "ipl": "gehorcht"
+            }
+        ],
+        "akk": [
+            {
+                "1sg": "liebe",
+                "2sg": "liebst",
+                "3sg": "liebt",
+                "1pl": "lieben",
+                "2pl": "liebt",
+                "3pl": "lieben",
+                "isg": "liebe",
+                "ipl": "liebt"
+            },
+            {
+                "1sg": "esse",
+                "2sg": "isst",
+                "3sg": "isst",
+                "1pl": "essen",
+                "2pl": "esst",
+                "3pl": "essen",
+                "isg": "iss",
+                "ipl": "esst"
+            },
+            {
+                "1sg": "säubere",
+                "2sg": "säuberst",
+                "3sg": "säubert",
+                "1pl": "säubern",
+                "2pl": "säubert",
+                "3pl": "säubern",
+                "isg": "säubere",
+                "ipl": "säubert"
+            },
+            {
+                "1sg": "rieche",
+                "2sg": "riechst",
+                "3sg": "riecht",
+                "1pl": "riechen",
+                "2pl": "riecht",
+                "3pl": "riechen",
+                "isg": "rieche",
+                "ipl": "riecht"
+            },
+            {
+                "1sg": "erschaffe",
+                "2sg": "erschaffst",
+                "3sg": "erschafft",
+                "1pl": "erschaffen",
+                "2pl": "erschafft",
+                "3pl": "erschaffen",
+                "isg": "erschaffe",
+                "ipl": "erschafft"
+            },
+            {
+                "1sg": "verstehe",
+                "2sg": "verstehst",
+                "3sg": "versteht",
+                "1pl": "verstehen",
+                "2pl": "versteht",
+                "3pl": "verstehen",
+                "isg": "verstehe",
+                "ipl": "versteht"
+            },
+            {
+                "1sg": "überlebe",
+                "2sg": "überlebst",
+                "3sg": "überlebt",
+                "1pl": "überleben",
+                "2pl": "überlebt",
+                "3pl": "überleben",
+                "isg": "überlebe",
+                "ipl": "überlebt"
+            }
+        ]
+    }
+}

@@ -1,0 +1,533 @@
+{
+    "purpose": "Für Adjektive. Jedoch nicht gesteigert und auch nicht in Adverbialform (z.B. 'schön')",
+    "order": [
+        "...",
+        "genus",
+        "determ",
+        "kasus"
+    ],
+    "content": [
+        {
+            "m": {
+                "def": {
+                    "nom": "schöne",
+                    "gen": "schönen",
+                    "dat": "schönen",
+                    "akk": "schönen"
+                },
+                "indef": {
+                    "nom": "schöner",
+                    "gen": "schönen",
+                    "dat": "schönen",
+                    "akk": "schönen"
+                }
+            },
+            "f": {
+                "def":{
+                    "nom": "schöne",
+                    "gen": "schönen",
+                    "dat": "schönen",
+                    "akk": "schöne"
+                },
+                "indef": {
+                    "nom": "schöne",
+                    "gen": "schönen",
+                    "dat": "schönen",
+                    "akk": "schöne"
+                }
+            },
+            "n": {
+                "def": {
+                    "nom": "schöne",
+                    "gen": "schönen",
+                    "dat": "schönen",
+                    "akk": "schöne"
+                },
+                "indef": {
+                    "nom": "schönes",
+                    "gen": "schönen",
+                    "dat": "schönen",
+                    "akk": "schönes"
+                }
+            },
+            "pl": {
+                "def": {
+                    "nom": "schönen",
+                    "gen": "schönen",
+                    "dat": "schönen",
+                    "akk": "schönen"
+                },
+                "indef": {
+                    "nom": "schöne",
+                    "gen": "schöner",
+                    "dat": "schönen",
+                    "akk": "schöne"
+                }
+            }
+        },
+        {
+            "m": {
+                "def": {
+                    "nom": "dumme",
+                    "gen": "dummen",
+                    "dat": "dummen",
+                    "akk": "dummen"
+                },
+                "indef": {
+                    "nom": "dummer",
+                    "gen": "dummen",
+                    "dat": "dummen",
+                    "akk": "dummen"
+                }
+            },
+            "f": {
+                "def": {
+                    "nom": "dumme",
+                    "gen": "dummen",
+                    "dat": "dummen",
+                    "akk": "dumme"
+                },
+                "indef": {
+                    "nom": "dumme",
+                    "gen": "dummen",
+                    "dat": "dummen",
+                    "akk": "dumme"
+                }
+            },
+            "n": {
+                "def": {
+                    "nom": "dumme",
+                    "gen": "dummen",
+                    "dat": "dummen",
+                    "akk": "dumme"
+                },
+                "indef": {
+                    "nom": "dummes",
+                    "gen": "dummen",
+                    "dat": "dummen",
+                    "akk": "dummes"
+                }
+            },
+            "pl": {
+                "def": {
+                    "nom": "dummen",
+                    "gen": "dummen",
+                    "dat": "dummen",
+                    "akk": "dummen"
+                },
+                "indef": {
+                    "nom": "dumme",
+                    "gen": "dummer",
+                    "dat": "dummen",
+                    "akk": "dumme"
+                }
+            }
+        },
+        {
+            "m": {
+                "def": {
+                    "nom": "alte",
+                    "gen": "alten",
+                    "dat": "alten",
+                    "akk": "alten"
+                },
+                "indef": {
+                    "nom": "alter",
+                    "gen": "alten",
+                    "dat": "alten",
+                    "akk": "alten"
+                }
+            },
+            "f": {
+                "def": {
+                    "nom": "alte",
+                    "gen": "alten",
+                    "dat": "alten",
+                    "akk": "alte"
+                },
+                "indef": {
+                    "nom": "alte",
+                    "gen": "alten",
+                    "dat": "alten",
+                    "akk": "alte"
+                }
+            },
+            "n": {
+                "def": {
+                    "nom": "alte",
+                    "gen": "alten",
+                    "dat": "alten",
+                    "akk": "alte"
+                },
+                "indef": {
+                    "nom": "altes",
+                    "gen": "alten",
+                    "dat": "alten",
+                    "akk": "altes"
+                }
+            },
+            "pl": {
+                "def": {
+                    "nom": "alten",
+                    "gen": "alten",
+                    "dat": "alten",
+                    "akk": "alten"
+                },
+                "indef": {
+                    "nom": "alte",
+                    "gen": "alter",
+                    "dat": "alten",
+                    "akk": "alte"
+                }
+            }
+        },
+        {
+            "m": {
+                "def": {
+                    "nom": "liebenswürdige",
+                    "gen": "liebenswürdigen",
+                    "dat": "liebenswürdigen",
+                    "akk": "liebenswürdigen"
+                },
+                "indef": {
+                    "nom": "liebenswürdiger",
+                    "gen": "liebenswürdigen",
+                    "dat": "liebenswürdigen",
+                    "akk": "liebenswürdigen"
+                }
+            },
+            "f": {
+                "def": {
+                    "nom": "liebenswürdige",
+                    "gen": "liebenswürdigen",
+                    "dat": "liebenswürdigen",
+                    "akk": "liebenswürdige"
+                },
+                "indef": {
+                    "nom": "liebenswürdige",
+                    "gen": "liebenswürdigen",
+                    "dat": "liebenswürdigen",
+                    "akk": "liebenswürdige"
+                }
+            },
+            "n": {
+                "def": {
+                    "nom": "liebenswürdige",
+                    "gen": "liebenswürdigen",
+                    "dat": "liebenswürdigen",
+                    "akk": "liebenswürdige"
+                },
+                "indef": {
+                    "nom": "liebenswürdiges",
+                    "gen": "liebenswürdigen",
+                    "dat": "liebenswürdigen",
+                    "akk": "liebenswürdiges"
+                }
+            },
+            "pl": {
+                "def": {
+                    "nom": "liebenswürdigen",
+                    "gen": "liebenswürdigen",
+                    "dat": "liebenswürdigen",
+                    "akk": "liebenswürdigen"
+                },
+                "indef": {
+                    "nom": "liebenswürdige",
+                    "gen": "liebenswürdiger",
+                    "dat": "liebenswürdigen",
+                    "akk": "liebenswürdige"
+                }
+            }
+        },
+        {
+            "m": {
+                "def": {
+                    "nom": "verantwortungslose",
+                    "gen": "verantwortungslosen",
+                    "dat": "verantwortungslosen",
+                    "akk": "verantwortungslosen"
+                },
+                "indef": {
+                    "nom": "verantwortungsloser",
+                    "gen": "verantwortungslosen",
+                    "dat": "verantwortungslosen",
+                    "akk": "verantwortungslosen"
+                }
+            },
+            "f": {
+                "def": {
+                    "nom": "verantwortungslose",
+                    "gen": "verantwortungslosen",
+                    "dat": "verantwortungslosen",
+                    "akk": "verantwortungslose"
+                },
+                "indef": {
+                    "nom": "verantwortungslose",
+                    "gen": "verantwortungslosen",
+                    "dat": "verantwortungslosen",
+                    "akk": "verantwortungslose"
+                }
+            },
+            "n": {
+                "def": {
+                    "nom": "verantwortungslose",
+                    "gen": "verantwortungslosen",
+                    "dat": "verantwortungslosen",
+                    "akk": "verantwortungslose"
+                },
+                "indef": {
+                    "nom": "verantwortungsloses",
+                    "gen": "verantwortungslosen",
+                    "dat": "verantwortungslosen",
+                    "akk": "verantwortungsloses"
+                }
+            },
+            "pl": {
+                "def": {
+                    "nom": "verantwortungslosen",
+                    "gen": "verantwortungslosen",
+                    "dat": "verantwortungslosen",
+                    "akk": "verantwortungslosen"
+                },
+                "indef": {
+                    "nom": "verantwortungslose",
+                    "gen": "verantwortungsloser",
+                    "dat": "verantwortungslosen",
+                    "akk": "verantwortungslose"
+                }
+            }
+        },
+        {
+            "m": {
+                "def": {
+                    "nom": "schlafende",
+                    "gen": "schlafenden",
+                    "dat": "schlafenden",
+                    "akk": "schlafenden"
+                },
+                "indef": {
+                    "nom": "schlafender",
+                    "gen": "schlafenden",
+                    "dat": "schlafenden",
+                    "akk": "schlafenden"
+                }
+            },
+            "f": {
+                "def": {
+                    "nom": "schlafende",
+                    "gen": "schlafenden",
+                    "dat": "schlafenden",
+                    "akk": "schlafende"
+                },
+                "indef": {
+                    "nom": "schlafende",
+                    "gen": "schlafenden",
+                    "dat": "schlafenden",
+                    "akk": "schlafende"
+                }
+            },
+            "n": {
+                "def": {
+                    "nom": "schlafende",
+                    "gen": "schlafenden",
+                    "dat": "schlafenden",
+                    "akk": "schlafende"
+                },
+                "indef": {
+                    "nom": "schlafendes",
+                    "gen": "schlafenden",
+                    "dat": "schlafenden",
+                    "akk": "schlafendes"
+                }
+            },
+            "pl": {
+                "def": {
+                    "nom": "schlafenden",
+                    "gen": "schlafenden",
+                    "dat": "schlafenden",
+                    "akk": "schlafenden"
+                },
+                "indef": {
+                    "nom": "schlafende",
+                    "gen": "schlafender",
+                    "dat": "schlafenden",
+                    "akk": "schlafende"
+                }
+            }
+        },
+        {
+            "m": {
+                "def": {
+                    "nom": "bizarre",
+                    "gen": "bizarren",
+                    "dat": "bizarren",
+                    "akk": "bizarren"
+                },
+                "indef": {
+                    "nom": "bizarrer",
+                    "gen": "bizarren",
+                    "dat": "bizarren",
+                    "akk": "bizarren"
+                }
+            },
+            "f": {
+                "def": {
+                    "nom": "bizarre",
+                    "gen": "bizarren",
+                    "dat": "bizarren",
+                    "akk": "bizarre"
+                },
+                "indef": {
+                    "nom": "bizarre",
+                    "gen": "bizarren",
+                    "dat": "bizarren",
+                    "akk": "bizarre"
+                }
+            },
+            "n": {
+                "def": {
+                    "nom": "bizarre",
+                    "gen": "bizarren",
+                    "dat": "bizarren",
+                    "akk": "bizarre"
+                },
+                "indef": {
+                    "nom": "bizarres",
+                    "gen": "bizarren",
+                    "dat": "bizarren",
+                    "akk": "bizarres"
+                }
+            },
+            "pl": {
+                "def": {
+                    "nom": "bizarren",
+                    "gen": "bizarren",
+                    "dat": "bizarren",
+                    "akk": "bizarren"
+                },
+                "indef": {
+                    "nom": "bizarre",
+                    "gen": "bizarrer",
+                    "dat": "bizarren",
+                    "akk": "bizarre"
+                }
+            }
+        },
+        {
+            "m": {
+                "def": {
+                    "nom": "verwunderliche",
+                    "gen": "verwunderlichen",
+                    "dat": "verwunderlichen",
+                    "akk": "verwunderlichen"
+                },
+                "indef": {
+                    "nom": "verwunderlicher",
+                    "gen": "verwunderlichen",
+                    "dat": "verwunderlichen",
+                    "akk": "verwunderlichen"
+                }
+            },
+            "f": {
+                "def": {
+                    "nom": "verwunderliche",
+                    "gen": "verwunderlichen",
+                    "dat": "verwunderlichen",
+                    "akk": "verwunderliche"
+                },
+                "indef": {
+                    "nom": "verwunderliche",
+                    "gen": "verwunderlichen",
+                    "dat": "verwunderlichen",
+                    "akk": "verwunderliche"
+                }
+            },
+            "n": {
+                "def": {
+                    "nom": "verwunderliche",
+                    "gen": "verwunderlichen",
+                    "dat": "verwunderlichen",
+                    "akk": "verwunderliche"
+                },
+                "indef": {
+                    "nom": "verwunderliches",
+                    "gen": "verwunderlichen",
+                    "dat": "verwunderlichen",
+                    "akk": "verwunderliches"
+                }
+            },
+            "pl": {
+                "def": {
+                    "nom": "verwunderlichen",
+                    "gen": "verwunderlichen",
+                    "dat": "verwunderlichen",
+                    "akk": "verwunderlichen"
+                },
+                "indef": {
+                    "nom": "verwunderliche",
+                    "gen": "verwunderlicher",
+                    "dat": "verwunderlichen",
+                    "akk": "verwunderliche"
+                }
+            }
+        },
+        {
+            "m": {
+                "def": {
+                    "nom": "verwahrloste",
+                    "gen": "verwahrlosten",
+                    "dat": "verwahrlosten",
+                    "akk": "verwahrlosten"
+                },
+                "indef": {
+                    "nom": "verwahrloster",
+                    "gen": "verwahrlosten",
+                    "dat": "verwahrlosten",
+                    "akk": "verwahrlosten"
+                }
+            },
+            "f": {
+                "def": {
+                    "nom": "verwahrloste",
+                    "gen": "verwahrlosten",
+                    "dat": "verwahrlosten",
+                    "akk": "verwahrloste"
+                },
+                "indef": {
+                    "nom": "verwahrloste",
+                    "gen": "verwahrlosten",
+                    "dat": "verwahrlosten",
+                    "akk": "verwahrloste"
+                }
+            },
+            "n": {
+                "def": {
+                    "nom": "verwahrloste",
+                    "gen": "verwahrlosten",
+                    "dat": "verwahrlosten",
+                    "akk": "verwahrloste"
+                },
+                "indef": {
+                    "nom": "verwahrlostes",
+                    "gen": "verwahrlosten",
+                    "dat": "verwahrlosten",
+                    "akk": "verwahrlostes"
+                }
+            },
+            "pl": {
+                "def": {
+                    "nom": "verwahrlosten",
+                    "gen": "verwahrlosten",
+                    "dat": "verwahrlosten",
+                    "akk": "verwahrlosten"
+                },
+                "indef": {
+                    "nom": "verwahrloste",
+                    "gen": "verwahrloster",
+                    "dat": "verwahrlosten",
+                    "akk": "verwahrloste"
+                }
+            }
+        }
+    ]
+}

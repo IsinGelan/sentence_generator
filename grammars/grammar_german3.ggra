@@ -1,0 +1,317 @@
+
+// Jetzt mit Referent, Indefinititpronomen und Demonstrativpronomen unter Referenten
+
+// Idee:
+// standard "m"|"f"|"n"|"pl" => Nomen.genus
+// obj_kas is "Gen"|"Dat"|"Akk" // sodass man gleiche Muster in Variablen speichern kann
+// standard obj_kas => Obj.kasus // sodass man Standard-Muster für Parameter festlegen kann
+
+
+Satz:
+    <Fragesatz> "?"
+    <Ausrufsatz> "!"
+    <Hauptsatz> "."
+    <~Hauptsatz> "," <Konjunktion> <~Hauptsatz> "."
+    <Hauptsatz> "," <Subjunktion> <Nebensatz> "."
+    <Hauptsatz> "," <Fesseljunktion> <Fesselsatz> "."
+    <Subjunktion> <Nebensatz> "," <Fesselsatz> "."
+
+Fragesatz:
+    from:
+        <Fragewort> <Verb> <Subjekt>
+        <Verb> <Subjekt>
+    with:
+        "1sg"|"2sg"|"3sg"|"1pl"|"2pl"|"3pl" => Subjekt.person
+        Subjekt ==person=> Verb
+    
+    from:
+        <Fragewort> <VerbT> <Subjekt> <Objekt>
+        <VerbT> <Subjekt> <Objekt>
+    with:
+        "1sg"|"2sg"|"3sg"|"1pl"|"2pl"|"3pl" => Subjekt.person
+        "nom"|"dat"|"akk" => VerbT.kasus
+        Subjekt ==person=> VerbT
+        VerbT   ==kasus=> Objekt
+    
+    from:
+        <Interrogativ> <VerbT> <Subjekt>
+        with:
+            "1sg"|"2sg"|"3sg"|"1pl"|"2pl"|"3pl" => Subjekt.person
+            "nom"|"dat"|"akk" => VerbT.kasus
+            Subjekt ==person=> VerbT
+            VerbT ==kasus=> Interrogativ
+
+Ausrufsatz:
+    <VerbImp>
+    <VerbImpT> <Objekt>
+    with:
+        "nom"|"dat"|"akk" => VerbImpT.kasus
+        VerbImpT ==kasus=> Objekt
+
+Hauptsatz:
+    <Subjekt> <Verb>
+    with:
+        "1sg"|"2sg"|"3sg"|"1pl"|"2pl"|"3pl" => Subjekt.person
+        Subjekt ==person=> Verb
+    
+    from:
+        <Subjekt> <VerbT> <Objekt>
+        <Objekt> <VerbT> <Subjekt>
+    with:
+        "1sg"|"2sg"|"3sg"|"1pl"|"2pl"|"3pl" => Subjekt.person
+        "nom"|"dat"|"akk" => VerbT.kasus
+        Subjekt ==person=> VerbT
+        VerbT   ==kasus=> Objekt
+
+Nebensatz:
+    <Subjekt> <Verb>
+    with:
+        "1sg"|"2sg"|"3sg"|"1pl"|"2pl"|"3pl" => Subjekt.person
+        Subjekt ==person=> Verb
+    
+    <Subjekt> <Objekt> <VerbT>
+    with:
+        "1sg"|"2sg"|"3sg"|"1pl"|"2pl"|"3pl" => Subjekt.person
+        "nom"|"dat"|"akk" => VerbT.kasus
+        Subjekt ==person=> VerbT
+        VerbT   ==kasus=> Objekt
+
+Fesselsatz:
+    <Verb> <Subjekt>
+    with:
+        "1sg"|"2sg"|"3sg"|"1pl"|"2pl"|"3pl" => Subjekt.person
+        Subjekt ==person=> Verb
+    
+    <VerbT> <Subjekt> <Objekt>
+    with:
+        "1sg"|"2sg"|"3sg"|"1pl"|"2pl"|"3pl" => Subjekt.person
+        "nom"|"dat"|"akk" => VerbT.kasus
+        Subjekt ==person=> VerbT
+        VerbT   ==kasus=> Objekt
+
+Subjekt(person):
+    <SubjektPersonal>
+    with:
+        person => SubjektPersonal.person
+    
+    <SubjektSing>
+    if person = "3sg"
+    
+    <SubjektPlur>
+    if person = "3pl"
+
+SubjektSing:
+    <ObjektSing>
+    with:
+        "nom" => ObjektSing.kasus
+
+SubjektPlur:
+    <ObjektPlur>
+    with:
+        "nom" => ObjektPlur.kasus
+
+SubjektPersonal(person):
+    <PersPron>
+    with:
+        "nom"   => PersPron.kasus
+        person  => PersPron.person
+    if person != "3sg"
+    
+    <PersPron>
+    with:
+        "nom"   => PersPron.kasus
+        "3sgm"|"3sgf"|"3sgn" => PersPron.person
+    if person = "3sg"
+
+Subjekt():
+    <Subjekt>
+    with:
+        "1sg"|"2sg"|"3sg"|"1pl"|"2pl"|"3pl" => Subjekt.person
+
+Interrogativ(kasus):
+    from:
+        "was"
+        "wer"
+    if kasus = "nom"
+    "wessen"
+    if kasus = "gen"
+    "wem"
+    if kasus = "dat"
+    from:
+        "was"
+        "wen"
+    if kasus = "akk"
+
+    "wessen" <Nomen>
+    with:
+        kasus => Nomen.kasus
+        "m"|"f"|"n"|"pl" => Nomen.genus
+
+    <InterrogativPronSelekt> <Nomen>
+    with:
+        kasus => Nomen.kasus
+        "m"|"f"|"n"|"pl" => Nomen.genus
+        Nomen ==kasus=> InterrogativPronSelekt
+        Nomen ==genus=> InterrogativPronSelekt
+
+Objekt(kasus):
+    <PersPron>
+    with:
+        "1sg"|"2sg"|"3sgm"|"3sgf"|"3sgn"|"1pl"|"2pl"|"3pl" => PersPron.person
+        kasus => PersPron.kasus
+    
+    <ObjektSing>
+    with: kasus => ObjektSing.kasus
+
+    <ObjektPlur>
+    with: kasus => ObjektPlur.kasus
+
+ObjektSing(kasus):
+    from:
+        <Referent> <Nomen>
+        <Referent> <Nomen> <Besitzer>
+    with:
+        kasus => Nomen.kasus
+        "m"|"f"|"n" => Nomen.genus
+        Nomen ==kasus=> Referent
+        Nomen ==genus=> Referent
+    
+    from:
+        <Referent> <Adjektiv> <Nomen>
+        <Referent> <Adjektiv> <Nomen> <Besitzer>
+    with:
+        kasus => Nomen.kasus
+        "m"|"f"|"n" => Nomen.genus
+        Nomen ==kasus=> Referent
+        Nomen ==genus=> Referent
+        "def"|"indef" => Adjektiv.determ
+        Nomen ==kasus=> Adjektiv
+        Nomen ==genus=> Adjektiv
+        Adjektiv ==determ=> Referent
+    
+    <PossPron> <Nomen>
+    with:
+        kasus => Nomen.kasus
+        "m"|"f"|"n" => Nomen.genus
+        Nomen ==kasus=> PossPron
+        Nomen ==genus=> PossPron
+    
+    <PossPron> <Adjektiv> <Nomen>
+    with:
+        kasus => Nomen.kasus
+        "m"|"f"|"n" => Nomen.genus
+        Nomen ==kasus=> PossPron
+        Nomen ==genus=> PossPron
+        "indef" => Adjektiv.determ
+        Nomen ==kasus=> Adjektiv
+        Nomen ==genus=> Adjektiv
+
+ObjektPlur(kasus):
+    from:
+        <Referent> <Nomen>
+        <Referent> <Nomen> <Besitzer>
+    with:
+        kasus   => Nomen.kasus
+        "pl"    => Nomen.genus
+        Nomen ==kasus=> Referent
+        Nomen ==genus=> Referent
+        
+    from:
+        <Referent> <Adjektiv> <Nomen>
+        <Referent> <Adjektiv> <Nomen> <Besitzer>
+    with:
+        kasus   => Nomen.kasus
+        "pl"    => Nomen.genus
+        Nomen ==kasus=> Referent
+        Nomen ==genus=> Referent
+        "def"|"indef" => Adjektiv.determ
+        Nomen ==kasus=> Adjektiv
+        Nomen ==genus=> Adjektiv
+        Adjektiv ==determ=> Referent
+
+    <PossPron> <Nomen>
+    with:
+        kasus   => Nomen.kasus
+        "pl"    => Nomen.genus
+        Nomen ==kasus=> PossPron
+        Nomen ==genus=> PossPron
+    
+    <PossPron> <Adjektiv> <Nomen>
+    with:
+        kasus   => Nomen.kasus
+        "pl"    => Nomen.genus
+        Nomen ==kasus=> PossPron
+        Nomen ==genus=> PossPron
+        "def" => Adjektiv.determ
+        Nomen ==kasus=> Adjektiv
+        Nomen ==genus=> Adjektiv
+    
+    <~Objekt> "und" <~Objekt>
+    with:
+        kasus => Objekt.kasus
+
+Besitzer:
+    from:
+        <Referent> <Nomen>
+        <Referent> <Nomen> <Besitzer>
+    with:
+        "gen" => Nomen.kasus
+        "m"|"f"|"n"|"pl" => Nomen.genus
+        Nomen ==kasus=> Referent
+        Nomen ==genus=> Referent
+    
+    <PossPron> <Nomen>
+    with:
+        "gen" => Nomen.kasus
+        "m"|"f"|"n"|"pl" => Nomen.genus
+        Nomen ==kasus=> PossPron
+        Nomen ==genus=> PossPron
+
+Konjunktion -> "tables/konjunktion.json"
+
+Subjunktion -> "tables/subjunktion.json"
+
+Fesseljunktion -> "tables/fesseljunktion.json"
+
+Fragewort -> "tables/interrogativadverb.json"
+
+InterrogativPronSelekt(genus, kasus) -> "tables/interropron_selektiv.json"
+
+Referent(determ, genus, kasus) -> "tables/referent.json"
+
+Referent(genus, kasus):
+    <Referent>
+    with:
+        "def"|"indef" => Referent.determ
+        genus => Referent.genus
+        kasus => Referent.kasus
+
+Adjektiv(genus, determ, kasus) -> "tables/adjektiv.json"
+
+Nomen(genus, kasus) -> "tables/nomen.json"
+
+PersPron(person, kasus) -> "tables/perspron.json"
+
+PossPron(person, genus, kasus) -> "tables/posspron.json"
+
+PossPron(genus, kasus):
+    <PossPron>
+    with:
+        "1sg"|"2sg"|"3sgm"|"3sgf"|"3sgn"|"1pl"|"2pl"|"3pl" => PossPron.person
+        genus => PossPron.genus
+        kasus => PossPron.kasus
+
+Verb(person) -> "tables/verb.json"
+
+VerbT(kasus, person) -> "tables/verb_t.json"
+
+VerbImp:
+    <Verb>
+    with:
+        "isg"|"ipl" => Verb.person
+
+VerbImpT(kasus):
+    <VerbT>
+    with:
+        "isg"|"ipl" => VerbT.person
+        kasus => VerbT.kasus

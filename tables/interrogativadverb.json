@@ -1,0 +1,13 @@
+{
+    "purpose": "Für unflektierte Fragewörter (nicht wie 'wer' z.B.)",
+    "order": [
+        "..."
+    ],
+    "content": [
+        "wo",
+        "wann",
+        "warum",
+        "weshalb",
+        "wie"
+    ]
+}

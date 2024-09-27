@@ -1,0 +1,70 @@
+
+{
+    "purpose": "für intransitiv verwendbare Verben, wobei transitiv auch direkte Nominativ- bzw. Dativ-Objekte einbezieht",
+    "order": [
+        "...",
+        "person"
+    ],
+    "content": [
+        {
+            "1sg": "lebe",
+            "2sg": "lebst",
+            "3sg": "lebt",
+            "1pl": "leben",
+            "2pl": "lebt",
+            "3pl": "leben",
+            "isg": "lebe",
+            "ipl": "lebt"
+        },
+        {
+            "1sg": "existiere",
+            "2sg": "existierst",
+            "3sg": "existiert",
+            "1pl": "existieren",
+            "2pl": "existiert",
+            "3pl": "existieren",
+            "isg": "existiere",
+            "ipl": "existiert"
+        },
+        {
+            "1sg": "rieche",
+            "2sg": "riechst",
+            "3sg": "riecht",
+            "1pl": "riechen",
+            "2pl": "riecht",
+            "3pl": "riechen",
+            "isg": "rieche",
+            "ipl": "riecht"
+        },
+        {
+            "1sg": "dusche",
+            "2sg": "duschst",
+            "3sg": "duscht",
+            "1pl": "duschen",
+            "2pl": "duscht",
+            "3pl": "duschen",
+            "isg": "dusche",
+            "ipl": "duscht"
+        },
+        {
+            "1sg": "denke",
+            "2sg": "denkst",
+            "3sg": "denkt",
+            "1pl": "denken",
+            "2pl": "denkt",
+            "3pl": "denken",
+            "isg": "denke",
+            "ipl": "denkt"
+        },
+        {
+            "1sg": "überlege",
+            "2sg": "überlegst",
+            "3sg": "überlegt",
+            "1pl": "überlegen",
+            "2pl": "überlegt",
+            "3pl": "überlegen",
+            "isg": "überlege",
+            "ipl": "überlegt"
+        }
+    ]
+}

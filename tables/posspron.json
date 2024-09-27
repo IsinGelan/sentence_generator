@@ -1,0 +1,217 @@
+{
+    "order": [
+        "person",
+        "genus",
+        "kasus"
+    ],
+    "content": {
+        "1sg": {
+            "m": {
+                "nom": "mein",
+                "gen": "meines",
+                "dat": "meinem",
+                "akk": "meinen"
+            },
+            "f": {
+                "nom": "meine",
+                "gen": "meiner",
+                "dat": "meiner",
+                "akk": "meine"
+            },
+            "n": {
+                "nom": "mein",
+                "gen": "meines",
+                "dat": "meinem",
+                "akk": "mein"
+            },
+            "pl": {
+                "nom": "meine",
+                "gen": "meiner",
+                "dat": "meinen",
+                "akk": "meine"
+            }
+        },
+        "2sg": {
+            "m": {
+                "nom": "dein",
+                "gen": "deines",
+                "dat": "deinem",
+                "akk": "deinen"
+            },
+            "f": {
+                "nom": "deine",
+                "gen": "deiner",
+                "dat": "deiner",
+                "akk": "deine"
+            },
+            "n": {
+                "nom": "dein",
+                "gen": "deines",
+                "dat": "deinem",
+                "akk": "dein"
+            },
+            "pl": {
+                "nom": "deine",
+                "gen": "deiner",
+                "dat": "deinen",
+                "akk": "deine"
+            }
+        },
+        "3sgm": {
+            "m": {
+                "nom": "sein",
+                "gen": "seines",
+                "dat": "seinem",
+                "akk": "seinen"
+            },
+            "f": {
+                "nom": "seine",
+                "gen": "seiner",
+                "dat": "seiner",
+                "akk": "seine"
+            },
+            "n": {
+                "nom": "sein",
+                "gen": "seines",
+                "dat": "seinem",
+                "akk": "sein"
+            },
+            "pl": {
+                "nom": "seine",
+                "gen": "seiner",
+                "dat": "seinen",
+                "akk": "seine"
+            }
+        },
+        "3sgf": {
+            "m": {
+                "nom": "ihr",
+                "gen": "ihres",
+                "dat": "ihrem",
+                "akk": "ihren"
+            },
+            "f": {
+                "nom": "ihre",
+                "gen": "ihrer",
+                "dat": "ihrer",
+                "akk": "ihre"
+            },
+            "n": {
+                "nom": "ihr",
+                "gen": "ihres",
+                "dat": "ihrem",
+                "akk": "ihr"
+            },
+            "pl": {
+                "nom": "ihre",
+                "gen": "ihrer",
+                "dat": "ihren",
+                "akk": "ihre"
+            }
+        },
+        "3sgn": {
+            "m": {
+                "nom": "sein",
+                "gen": "seines",
+                "dat": "seinem",
+                "akk": "seinen"
+            },
+            "f": {
+                "nom": "seine",
+                "gen": "seiner",
+                "dat": "seiner",
+                "akk": "seine"
+            },
+            "n": {
+                "nom": "sein",
+                "gen": "seines",
+                "dat": "seinem",
+                "akk": "sein"
+            },
+            "pl": {
+                "nom": "seine",
+                "gen": "seiner",
+                "dat": "seinen",
+                "akk": "seine"
+            }
+        },
+        "1pl": {
+            "m": {
+                "nom": "unser",
+                "gen": "unseres",
+                "dat": "unserem",
+                "akk": "unseren"
+            },
+            "f": {
+                "nom": "unsere",
+                "gen": "unserer",
+                "dat": "unserer",
+                "akk": "unsere"
+            },
+            "n": {
+                "nom": "unser",
+                "gen": "unseres",
+                "dat": "unserem",
+                "akk": "unser"
+            },
+            "pl": {
+                "nom": "unsere",
+                "gen": "unserer",
+                "dat": "unseren",
+                "akk": "unsere"
+            }
+        },
+        "2pl": {
+            "m": {
+                "nom": "euer",
+                "gen": "eures",
+                "dat": "eurem",
+                "akk": "euren"
+            },
+            "f": {
+                "nom": "eure",
+                "gen": "eurer",
+                "dat": "eurer",
+                "akk": "eure"
+            },
+            "n": {
+                "nom": "euer",
+                "gen": "eures",
+                "dat": "eurem",
+                "akk": "euer"
+            },
+            "pl": {
+                "nom": "eure",
+                "gen": "eurer",
+                "dat": "euren",
+                "akk": "eure"
+            }
+        },
+        "3pl": {
+            "m": {
+                "nom": "ihr",
+                "gen": "ihres",
+                "dat": "ihrem",
+                "akk": "ihren"
+            },
+            "f": {
+                "nom": "ihre",
+                "gen": "ihrer",
+                "dat": "ihrer",
+                "akk": "ihre"
+            },
+            "n": {
+                "nom": "ihr",
+                "gen": "ihres",
+                "dat": "ihrem",
+                "akk": "ihr"
+            },
+            "pl": {
+                "nom": "ihre",
+                "gen": "ihrer",
+                "dat": "ihren",
+                "akk": "ihre"
+            }
+        }
+    }
+}
